@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <title>CHALLENGE</title>
+</head>
+<body>
+    <header>
+        <img    class="logo" src="images/alura.png" alt="logo alura">
+    </header>
+    <main>
+        <section class="sessao1">
+            <div class="container_caixa_texto">
+                <textarea placeholder="Digite aqui seu texto" class="caixa_texto" id="caixaTexto"></textarea>
+            </div>
+            <div class="alerta">
+                <img class="aviso" src="images/alerta.png" alt="alerta">
+                <p> Somente letras minúsculas e sem acentos </p>
+            </div>
+            <div class="container_botoes">
+                <input type="button" class="btn-encriptar" id="btnEncriptar" value="Encriptar">
+                <input type="button" class="btn-desencriptar" id="btnDesencriptar" value="Desencriptar">
+            </div>
+        </section>
+        <section class="sessao2">
+            <div class="container_penguim">
+                <img class="penguim" src="images/penguin.png" alt="penguim">
+            </div>
+            <div class="container_texto">
+                <h3> nenhuma mensagem foi <br> encontrada</h3>
+                <p> insira o texto que deseja encriptar ou <br> desencriptar </p>
+            </div>
+            <div class="container_copiar">
+                <input type="button" class="btn-copiar" id="btnCopiar" value="Copiar">
+            </div>
+            <div class="container_resultado">
+                <p class="texto_resultado" id="textoResultado"></p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
